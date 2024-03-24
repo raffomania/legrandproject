@@ -1,9 +1,10 @@
 [project]
-name = "alles"
+name = "legrandproject"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Rafael Epplée", email = "allesproject@rafa.ee" }
+    { name = "Rafael Epplée", email = "legrandproject@rafa.ee"},
+    { name = "Uschi Dolfus", email = "legrandproject@rafa.ee" }
 ]
 dependencies = [
     "Django>=5.0.3",
@@ -23,4 +24,4 @@ dev-dependencies = []
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/alles"]
+packages = ["src/legrandproject"]
