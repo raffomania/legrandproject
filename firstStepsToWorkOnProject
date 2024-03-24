@@ -1,0 +1,3 @@
+rye sync			# firts time downloading django, only one time 
+source .venv/bin/activate 	# activate virtual environment, everytime
+python manage.py runserver	# start webserver 	
