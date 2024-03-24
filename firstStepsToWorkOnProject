@@ -1,3 +1,5 @@
 rye sync			# firts time downloading django, only one time 
 source .venv/bin/activate 	# activate virtual environment, everytime
-python manage.py runserver	# start webserver 	
+python manage.py runserver	# start webserver
+python manage.py makemigrations polls	# add new migration: items to db
+python manage.py sqlmigrate polls 0001	 # look at sql statement# look at sql statementss	
